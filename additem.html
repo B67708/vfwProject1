@@ -19,7 +19,19 @@ Project 1 -->
 				<legend>Add a vehicle</legend>
 				<ul> 
 					<li>
-						<label for="make">Vehicle Make</label>
+						<label for="newUsed">Is this vehicle new or used?</label> 
+					</li>
+					<br>
+					<ul>
+						<li>
+							<input type="radio" Checked value="New" id="new" name="newUsed"/><label for="new">New</label>
+						</li>
+						<li>
+							<input type="radio" value="Used" id="used" name="newUsed"/><label for="used">Used</label>						
+						</li>
+						<br>
+					<li>
+						<label for="make">Vehicle Make<br></label>
 						<select id="make">
 							<option value="chevrolet">Chevrolet</option>
 							<option value="ford">Ford</option>
@@ -28,6 +40,32 @@ Project 1 -->
 							<option value="jeep">Jeep</option>
 						</select>
 					</li>
+					<li>
+						<label for="model">Vehicle Model<br></label>
+						<select id="model">
+							<option value="cruze">Cruze</option>
+							<option value="impala">Impala</option>
+							<option value="cobalt">Cobalt</option>
+							<option value="camaro">Camaro</option>
+							<option value="focus">Focus</option>
+							<option value="explorer">Explorer</option>
+							<option value="fusion">Fusion</option>
+							<option value="f-150">F-150</option>
+							<option value="regal">Regal</option>
+							<option value="lacrosse">Lacrosse</option>
+							<option value="enclave">Enclave</option>
+							<option value="century">Century</option>
+							<option value="viper">Viper</option>
+							<option value="ram">Ram</option>
+							<option value="dart">Dart</option>
+							<option value="durango">Durango</option>
+							<option value="wrangler">Wrangler</option>
+							<option value="liberty">Liberty</option>
+							<option value="patriot">Patriot</option>
+							<option value="compass">Compass</option>
+						</select>
+					</li>
+					<li>
 				</ul> 
 			</fieldset> 	
 		</form>
