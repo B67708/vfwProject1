@@ -13,16 +13,16 @@ Project 1 -->
 	</head>
 	
 	<body>
-		<h1>Car inventory log</h1>
+		<h1 id="title">Car inventory log</h1>
 		<nav>
 			<a href="#"id="clear">Clear Stored Data</a>
 			<a href="#"id="display">Display Stored Data</a>
 		</nav>
 	</body>
-		<form action="" method="post">
-			<fieldset>
+		<form action="" method="post" id="vehLib">
+			<fieldset id="vehical">
 				<legend>Add a vehicle</legend>
-				<ul> 
+				<ul id="entery"> 
 					<li>
 						<label for="newUsed">Is this vehicle new or used?</label> 
 					</li>
@@ -35,7 +35,7 @@ Project 1 -->
 							<input type="radio" value="Used" id="used" name="newUsed"/><label for="used">Used</label>						
 						</li>
 			<br>
-					<li>
+					<li id="make">
 						<label for="make">Vehicle Make<br></label>
 						<select id="make">
 							<option value="chevrolet">Chevrolet</option>
@@ -46,7 +46,7 @@ Project 1 -->
 						</select>
 					</li>
 			<br>
-					<li>
+					<li id="modle">
 						<label for="model">Vehicle Model<br></label>
 						<select id="model">
 							<option value="cruze">Cruze</option>
